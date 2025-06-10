@@ -13,18 +13,16 @@ Este registro permite identificar factores clave para la detección temprana y e
 - gender **(categorical)**: género del paciente (por ejemplo, masculino, femenino)  
 - country **(str)**: país o región de residencia del paciente  
 - diagnosis_date **(date)**: fecha de diagnóstico de cáncer de pulmón  
-- cancer_stage **(categorical)**: etapa del cáncer al momento del diagnóstico  
+- cancer_stage **(categorical)**: etaspa del cáncer al momento del diagnóstico  
 - family_history **(categorical)**: indica si hay historial familiar de cáncer (sí/no)  
 - smoking_status **(categorical)**: estado de tabaquismo del paciente  
 - bmi **(float)**: índice de masa corporal al momento del diagnóstico  
 - cholesterol_level **(float)**: nivel de colesterol del paciente  
 - hypertension **(categorical)**: indica si el paciente tiene hipertensión (sí/no)  
-- asthma **(categorical)**: indica si el paciente tiene asma (sí/no)  
-- cirrhosis **(categorical)**: indica si el paciente tiene cirrosis hepática (sí/no)  
+- asthma **(categorical)**: indica si el paciente tiene asma (sí/no)   
 - other_cancer **(categorical)**: indica si ha tenido otros tipos de cáncer (sí/no)  
 - treatment_type **(categorical)**: tipo de tratamiento recibido  
-- end_treatment_date **(date)**: fecha de finalización del tratamiento o de fallecimiento  
-- survived **(categorical)**: indica si el paciente sobrevivió (sí/no)  
+
 
 ## ¿Qué es un SGBD?
 
