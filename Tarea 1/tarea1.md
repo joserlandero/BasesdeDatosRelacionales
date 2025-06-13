@@ -13,7 +13,7 @@ Este registro permite identificar factores clave para la detección temprana y e
 - gender **(categorical)**: género del paciente (por ejemplo, masculino, femenino)  
 - country **(str)**: país o región de residencia del paciente  
 - diagnosis_date **(date)**: fecha de diagnóstico de cáncer de pulmón  
-- cancer_stage **(categorical)**: etaspa del cáncer al momento del diagnóstico  
+- cancer_stage **(categorical)**: etapa del cáncer al momento del diagnóstico  
 - family_history **(categorical)**: indica si hay historial familiar de cáncer (sí/no)  
 - smoking_status **(categorical)**: estado de tabaquismo del paciente  
 - bmi **(float)**: índice de masa corporal al momento del diagnóstico  
