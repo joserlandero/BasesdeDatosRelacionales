@@ -6,14 +6,14 @@ La base de datos se adapto siendo separada en 3 secciones distintas como se vió
 
 ### Esquema del Modelo Relacional
 
-- Paciente
+- **Paciente**
     - id_paciente **(PK)**
     - age
     - gender
     - country
     - diagnosis_date
 
-- Perfil Clínico
+- **Perfil Clínico**
     - id_paciente **(FK)**
     - bmi
     - cholestrol_level
@@ -22,7 +22,7 @@ La base de datos se adapto siendo separada en 3 secciones distintas como se vió
     - family_history
     - cancer_stage
 
-- Enfermedades
+- ¨**Enfermedades**
     - id_enfermedad **(PK)**
     - id_paciente **(FK)**
     - asthma 
