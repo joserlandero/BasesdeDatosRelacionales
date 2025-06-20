@@ -32,3 +32,6 @@ La base de datos se adapto siendo separada en 3 secciones distintas como se vió
 ### Diagrama Relacional
 
 ![Diagrama](FotoMapa2.png)
+
+
+### Faltan las operaciones
