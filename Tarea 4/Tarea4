@@ -1,0 +1,58 @@
+# Tarea 4
+
+## Query de creción de Base de Datos, Tablas e Insertar Datos:
+
+A continuación se mostrará una imagen del query en DBeaver:
+
+
+create database registro_med;
+
+use registro_med;
+
+create table pacientes(
+id_paciente int primary key,
+age int,
+gender varchar(50),
+country varchar(50),
+diagnosi_date date);
+
+describe pacientes;
+
+create table perfil_clinico(
+id_paciente int,
+foreign key(id_paciente) references registro_med.pacientes(id_paciente),
+bmi float(255,4),
+cholesterol_level float(255,4),
+smoking_status bool,
+treatment_type varchar(50),
+cancer_stage int);
+
+describe perfil_clinico;
+
+create table enfermedades(
+id_enfermedad int primary key,
+id_paciente int,
+foreign key(id_paciente) references registro_med.pacientes(id_paciente),
+asthma bool,
+hypertension bool,
+other_cancer bool);
+
+insert into pacientes values
+(1,47,'Female','Mexico','2025-01-01'),
+(2,31,'Female','Argentina','2025-02-01'),
+(3,28,'Male','Italia','2025-03-01'),
+(4,25,'Male','Espana','2025-04-01'),
+(5,55,'Female','Brasil','2025-05-01');
+
+insert into perfil_clinico values
+(1,2,100,False,'Tratamiento',1),
+(2,1,120,True,'Tratamiento',3),
+(3,3,150,True,'Tratamiento',1),
+(4,5,200,False,'Tratamiento',2),
+(5,4,170,False,'Tratamiento',2);
+
+
+describe pacientes;
+
+SELECT * from pacientes;
+SELECT * from perfil_clinico;
