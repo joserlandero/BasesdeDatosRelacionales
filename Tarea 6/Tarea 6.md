@@ -5,11 +5,13 @@ En esta tarea, se mostraran diferentes querys que permiten agrupar nuestras tabl
 
 ### Conteo de frecuencias
 **Conteo del numero de pacientes por pais.**
+
 ![alt text](image.png)
 
 El resultado nos indica que el país con mas pacientes es Suiza con 33,161 registros.
 
 **Media por edad de los nacidos en Suiza.**
+
 ![alt text](image-1.png)
 
 El resultado fue: 55.0157.
@@ -17,17 +19,20 @@ El resultado fue: 55.0157.
 ### Mínimos y máximos.
 
 **La edad mas alta y mas baja de mi tabla de pacientes**
+
 ![alt text](image-2.png)
 
 La edad mínima fue de 4 años y la edad máxima de 104 años.
 
 ### Cuantil 75%
+
 ![alt text](image-3.png)
 
 El resultado fue de 63.
 
 ### Moda
-![alt text](image-4.png)
+
+    ![alt text](image-4.png)
 
 El resultado fue 55.
 
