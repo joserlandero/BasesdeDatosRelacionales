@@ -32,13 +32,14 @@ El resultado fue de 63.
 
 ### Moda
 
-    ![alt text](image-4.png)
+![alt text](image-4.png)
 
 El resultado fue 55.
 
 ### Hallazgos y dificultades.
 
 **Dificultades**
+
     - Sinceramente no supe como hacer la moda y el cuartil, tuve que apoyarme de la tarea de un compañero y aun así no fue tan facil entender la lógica, pero gracias a ese apoyo me funcionó.
     - No fue una dificultad, pero si noté que a mi computadora le costaba correr el query, en algunos casos tardaba alrededor de 15 segundos.
 
