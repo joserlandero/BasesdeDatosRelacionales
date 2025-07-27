@@ -23,3 +23,11 @@ En la tabla perfil_clinico, la columna bmi tiene formato double, lo cambie a flo
 ### Id como Foregein Key
 
 ![alt text](image-3.png)
+
+
+## Subconsulta
+
+### ¿Cuáles son las edades que mas se presentan en la base?
+
+![alt text](image-4.png)
+
